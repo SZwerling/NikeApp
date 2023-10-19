@@ -7,7 +7,7 @@ import { statistics, shoes } from "../constants";
 
 const Hero = () => {
    const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
-   console.log(bigShoeImg);
+   
    return (
       <section
          id="home"

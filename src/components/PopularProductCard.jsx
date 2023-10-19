@@ -2,7 +2,7 @@ import { star } from "../assets/icons"
 
 
 function PopularProductCard({ imgURL, name, price }) {
-  console.log(name)
+  
   return (
     <div className="flex flex-1 flex-col w-full max-small:w-full">
       <img src={imgURL} alt={name} className="w-[280px] h=[280px]"/>
